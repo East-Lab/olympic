@@ -1,4 +1,1 @@
 test
-daichi
-hoge
-hogehoge
