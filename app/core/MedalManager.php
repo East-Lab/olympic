@@ -2,7 +2,7 @@
 
 class MedalManager
 {
-    public $hoge;
+    public $hoge = "init";
 
     public function initialize()
     {
