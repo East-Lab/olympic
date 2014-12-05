@@ -6,7 +6,7 @@ class IndexController extends ControllerBase
     public function indexAction()
     {
 
-        $this->view->hoge = "hoge!!!";
+        $this->view->hoge = $this->medalManager->get();
     }
 
 }
