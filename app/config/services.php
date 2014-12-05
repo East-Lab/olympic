@@ -80,6 +80,5 @@ $di->set('session', function () {
 });
 
 $di->set('medalManager', function () {
-    $medalManager = new MedalManager();
-    return $medalManager;
+    return new MedalManager();
 });
