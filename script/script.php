@@ -43,6 +43,8 @@ for ($i = 1; $i <= 47; $i++) {
         }
         $j++;
     }
-    var_dump($array);
+    echo $i . "\n";
 } 
+var_dump($array);
+file_put_contents("./json/medals.json", json_encode($array, true));
 json_encode($array, true);
