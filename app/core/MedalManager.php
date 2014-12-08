@@ -2,16 +2,18 @@
 
 class MedalManager
 {
-    private $base_url = "";
-    public $hoge = "init";
-
-    public function initialize()
-    {
-        $this->hoge = "hoge";
-    }
-
     public function get()
     {
-        return $this->hoge;
+        $json = file_get_contents("../script/json/medals.json");
+        $obj = json_decode($json);
+        return $this->vdump($obj);
+    }
+
+    public function vdump($obj){
+        ob_start();
+        var_dump($obj);
+        $dump = ob_get_contents();
+        ob_end_clean();
+        return $dump;
     }
 }
