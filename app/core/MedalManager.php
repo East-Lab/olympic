@@ -5,9 +5,9 @@ class MedalManager
     public function get()
     {
         $json = file_get_contents("../script/json/medals.json");
-        $obj = json_decode($json);
+        //$obj = json_decode($json);
         //return $this->vdump($obj[0]);
-        return $obj;
+        return $json;
     }
 
     public function vdump($obj){

@@ -1,2 +1,1 @@
-Phalcon!
 {{ hoge }}
