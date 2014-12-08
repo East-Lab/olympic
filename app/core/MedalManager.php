@@ -2,6 +2,7 @@
 
 class MedalManager
 {
+    private $base_url = "";
     public $hoge = "init";
 
     public function initialize()
