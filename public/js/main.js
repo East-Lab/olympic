@@ -8,7 +8,7 @@ $(function(){
         success: function(data) {
             json = data;
             for (var i = 0; i < data.length; i++) {
-                $(".carousel").append("<li>" + data[i]["year"] + ":" + data[i]["season"] + "</li>\n");
+                $(".slides").append("<li>" + data[i]["year"] + ":" + data[i]["season"] + "</li>\n");
             }
             console.log(json);
         }
