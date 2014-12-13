@@ -16,6 +16,6 @@ return new \Phalcon\Config(array(
         'libraryDir'     => __DIR__ . '/../../app/library/',
         'cacheDir'       => __DIR__ . '/../../app/cache/',
         'coreDir'       => __DIR__ . '/../../app/core/',
-        'baseUri'        => '/Olympic/',
+        'baseUri'        => '/olympic/',
     )
 ));
