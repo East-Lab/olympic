@@ -8,9 +8,9 @@ $(function(){
         success: function(data) {
             json = data;
             for (var i = 0; i < data.length; i++) {
-                $(".carousel").append(data[i]["year"]);
-                console.log(json);
+                $(".carousel").append(data[i]["year"] + ":" + data[i]["season"] + "<br>");
             }
+            console.log(json);
         }
 
     });
