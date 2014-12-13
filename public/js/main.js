@@ -9,7 +9,7 @@ $(function(){
             json = data;
             for (var i = 0; i < data.length; i++) {
                 //$(".slides").append("<li>" + data[i]["year"] + ":" + data[i]["season"] + "</li>\n");
-                $(".slides").append('<li><img src="https://pbs.twimg.com/profile_images/378800000381123578/aaa557c7eb7216b93186c2127c320e89.jpeg" /></li>');
+                $(".bxslider").append('<li><img src="https://pbs.twimg.com/profile_images/378800000381123578/aaa557c7eb7216b93186c2127c320e89.jpeg" /></li>');
             }
             console.log(json);
         }
