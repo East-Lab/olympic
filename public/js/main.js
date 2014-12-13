@@ -7,7 +7,11 @@ $(function(){
         },
         success: function(data) {
             json = data;
-            console.log(json);
+            for (var i = 0; i < data.length; i++) {
+                $(".carousel").append(data[i]["year"]);
+                console.log(json);
+            }
         }
+
     });
 });
