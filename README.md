@@ -1,3 +1,7 @@
+![](./design/mock.jpg)
+
+
+
 Web Hook設定方法
 =======================
 githubにpushした時に指定したURLにPOSTリクエストしてくれるのがwebhooks。
