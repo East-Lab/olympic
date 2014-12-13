@@ -6,7 +6,9 @@
 <body>
     <h1>NUM of MEDALS</h1>
     <?php $this->assets->outputJs() ?>
-    <div class="carousel">
+    <div class="flexslider">
+        <ul class="slides">
+        </ul>
     </div>
 </body>
 <html>
