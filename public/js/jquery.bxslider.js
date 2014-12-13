@@ -194,7 +194,7 @@
 			el.css({
 				width: slider.settings.mode == 'horizontal' ? (slider.children.length * 100 + 215) + '%' : 'auto',
 				position: 'relative',
-                left: '45%'
+                left: '91%'
 			});
 			// if using CSS, add the easing property
 			if(slider.usingCSS && slider.settings.easing){
@@ -206,8 +206,8 @@
 			var slidesShowing = getNumberSlidesShowing();
 			// make modifications to the viewport (.bx-viewport)
 			slider.viewport.css({
-				width: '100%',
-				overflow: 'hidden',
+				width: '50%',
+				overflow: 'none',
 				position: 'relative'
 			});
 			slider.viewport.parent().css({
@@ -223,7 +223,6 @@
 			slider.children.css({
 				'float': slider.settings.mode == 'horizontal' ? 'left' : 'none',
 				listStyle: 'none',
-				left: '-50%',
 				position: 'relative'
 			});
 			// apply the calculated width after the float is applied to prevent scrollbar interference
@@ -386,7 +385,7 @@
 		 * Returns the calculated width to be used for the outer wrapper / viewport
 		 */
 		var getViewportMaxWidth = function(){
-			var width = '100%';
+			var width = '80%';
 			if(slider.settings.slideWidth > 0){
 				if(slider.settings.mode == 'horizontal'){
 					width = (slider.settings.maxSlides * slider.settings.slideWidth) + ((slider.settings.maxSlides - 1) * slider.settings.slideMargin);
@@ -535,6 +534,7 @@
 		 *  - an optional parameter containing any variables that need to be passed in
 		 */
 		var setPositionProperty = function(value, type, duration, params){
+            value = value;
 			// use CSS transform
 			if(slider.usingCSS){
 				// determine the translate3d value
