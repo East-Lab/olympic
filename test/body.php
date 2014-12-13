@@ -1,6 +1,7 @@
 <div id="wrapper">
 
   <div id="rings">
+    <p>rings</p>
     <div class="blue"></div>
     <div class="yellow"></div>
     <div class="black"></div>
