@@ -10,6 +10,12 @@ class MedalManager
         return $json;
     }
 
+    public function getContinental()
+    {
+        $json = file_get_contents("../script/json/continental.json");
+        return $json;
+    }
+
     public function vdump($obj){
         ob_start();
         var_dump($obj);
