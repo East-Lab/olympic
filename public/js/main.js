@@ -1,8 +1,13 @@
-var hoge = 10;
-$.ajax({
-    url: 'json/conti_medals.json',
-    success: function(data) {
-        console.log(data);
-        //$('body').append(data + "<br />");
-    }
+$(function(){
+    var json;
+    $.ajax({
+        url: 'json/conti_medals.json',
+        beforeSend: function() {
+            console.log("before");
+        },
+        success: function(data) {
+            json = data;
+            console.log(json);
+        }
+    });
 });
