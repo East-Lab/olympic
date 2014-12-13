@@ -193,7 +193,8 @@
 			// also strip any margin and padding from el
 			el.css({
 				width: slider.settings.mode == 'horizontal' ? (slider.children.length * 100 + 215) + '%' : 'auto',
-				position: 'relative'
+				position: 'relative',
+                left: '45%'
 			});
 			// if using CSS, add the easing property
 			if(slider.usingCSS && slider.settings.easing){
@@ -222,6 +223,7 @@
 			slider.children.css({
 				'float': slider.settings.mode == 'horizontal' ? 'left' : 'none',
 				listStyle: 'none',
+				left: '-50%',
 				position: 'relative'
 			});
 			// apply the calculated width after the float is applied to prevent scrollbar interference
