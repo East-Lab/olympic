@@ -6,12 +6,11 @@
 <body>
     <h1>NUM of MEDALS</h1>
     <?php $this->assets->outputJs() ?>
-    <!--
     <div class="flexslider">
         <ul class="slides">
         </ul>
     </div>
-    -->
+    <!--
 <!-- Place somewhere in the <body> of your page -->
 <div class="flexslider">
   <ul class="slides">
@@ -29,5 +28,6 @@
     </li>
   </ul>
 </div>
+    -->
 </body>
 <html>
