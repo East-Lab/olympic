@@ -1,2 +1,8 @@
 var hoge = 10;
-console.log(hoge);
+$.ajax({
+    url: 'json/iconti_medals.json',
+    success: function(data) {
+        console.log(data);
+        //$('body').append(data + "<br />");
+    }
+});
