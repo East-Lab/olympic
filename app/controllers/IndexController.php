@@ -9,8 +9,8 @@ class IndexController extends ControllerBase
             ->addCss('css/bootstrap.min.css');
 
         $this->assets
-            ->addJs('js/bootstrap.min.js')
             ->addJs('js/jquery.js')
+            ->addJs('js/bootstrap.min.js')
             ->addJs('js/main.js');
 
         $this->view->title = "NUM of MEDALS";
