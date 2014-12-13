@@ -16,7 +16,8 @@ $(function(){
 
     });
 
-    $('.flexslider').flexslider({
-        animation: "slide"
+    $('.bxslider').bxSlider({
+        auto: true, 
+        autoControls: true
     });
 });
