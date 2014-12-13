@@ -5,13 +5,11 @@ class IndexController extends ControllerBase
 
     public function initialize()
     {
-        /*
         $this->assets
-            ->addCss('css/style.css')
-            ->addCss('css/index.css');
-         */
+            ->addCss('css/bootstrap.min.css');
 
         $this->assets
+            ->addJs('js/bootstrap.min.js')
             ->addJs('js/jquery.js')
             ->addJs('js/main.js');
 
