@@ -1,14 +1,17 @@
-<html>
-<head>
-    <title>{{ title }}</title>
-    <?php $this->assets->outputCss() ?>
-</head>
-<body>
-    <h1>NUM of MEDALS</h1>
-    <?php $this->assets->outputJs() ?>
-    <div id="main-contents">
+<div id="main-contents">
+    <div id="wrapper">
+        <div id="rings">
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="black"></div>
+            <div class="green"></div>
+            <div class="red"></div>
+        </div>
+        <div id="compe">
+            <div class="year"></div>
+            <div class="place"></div>
+        </div>
     </div>
-    <ul class="bxslider">
-    </ul>
-</body>
-<html>
+</div>
+<ul class="bxslider">
+</ul>
