@@ -194,7 +194,7 @@
 			el.css({
 				width: slider.settings.mode == 'horizontal' ? (slider.children.length * 100 + 215) + '%' : 'auto',
 				position: 'relative',
-                left: '91%'
+                left: '126%'
 			});
 			// if using CSS, add the easing property
 			if(slider.usingCSS && slider.settings.easing){
@@ -206,7 +206,7 @@
 			var slidesShowing = getNumberSlidesShowing();
 			// make modifications to the viewport (.bx-viewport)
 			slider.viewport.css({
-				width: '50%',
+				width: '28%',
 				overflow: 'none',
 				position: 'relative'
 			});

@@ -7,6 +7,7 @@ class IndexController extends ControllerBase
     {
         $this->assets
             ->addCss('css/jquery.bxslider.css')
+            ->addCss('css/style.css')
             ->addCss('css/bootstrap.min.css');
 
         $this->assets
