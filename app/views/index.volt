@@ -10,6 +10,10 @@
 <?php $this->assets->outputCss() ?>
 <body>
 <?php $this->assets->outputJs() ?>
+<div style="align: right; float: right;">
+    <a href="http://twitter.com/share?url=http://test.com/&text=NUM of MEDALs&via=hoge&related=@test&hashtags=#age" target="_blank"><img src="images/twitter.png" /></a>
+<a title="facebookでシェアする" href="http://www.facebook.com/sharer.php?u=http://test.com&t=NUM of MEDALs" target="_blank"><img src="images/facebook.png" /></a>
+</div>
 <header>
 <div id="logo"><img src="images/logo.png" alt="logo"></div>
 </header>
