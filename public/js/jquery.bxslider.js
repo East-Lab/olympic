@@ -194,7 +194,7 @@
 			el.css({
 				width: slider.settings.mode == 'horizontal' ? (slider.children.length * 100 + 215) + '%' : 'auto',
 				position: 'relative',
-                left: '126%'
+                left: '126%',
 			});
 			// if using CSS, add the easing property
 			if(slider.usingCSS && slider.settings.easing){
@@ -211,19 +211,19 @@
 				position: 'relative'
 			});
 			slider.viewport.parent().css({
-				maxWidth: getViewportMaxWidth()
+				maxWidth: getViewportMaxWidth(),
 			});
 			// make modification to the wrapper (.bx-wrapper)
 			if(!slider.settings.pager) {
 				slider.viewport.parent().css({
-				margin: '0 auto 0px'
+				margin: '0 auto 0px',
 				});
 			}
 			// apply css to all slider children
 			slider.children.css({
 				'float': slider.settings.mode == 'horizontal' ? 'left' : 'none',
 				listStyle: 'none',
-				position: 'relative'
+				position: 'relative',
 			});
 			// apply the calculated width after the float is applied to prevent scrollbar interference
 			slider.children.css('width', getSlideWidth());

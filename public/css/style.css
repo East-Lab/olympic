@@ -9,6 +9,10 @@ html {
   overflow: hidden;
 }
 
+body {
+  background-color: #F9F7F7;
+}
+
 #logo {
   margin: 30px;
 }
