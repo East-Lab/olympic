@@ -14,7 +14,6 @@ var colorScheme = {
 
 $(function(){
   //読み込み完了後の処理
-
   $('.blue').css({
     //draw circle
     'border'    : 'solid 6px' + colorScheme['blue'],
@@ -29,11 +28,8 @@ $(function(){
     'left'      : '50%',
     'margin-left': '-130px',
     'float'     : 'left',
-    '-webkit-transform'    : 'scale(1)',
-    '-webkit-transform'    : 'translate(0px,0px)',
+    //'transform' : 'scale(5.0, 5.0)',
   });
-
-
   $('.yellow').css({
     //draw circle
     'border'    : 'solid 6px' + colorScheme['yellow'],
@@ -49,9 +45,7 @@ $(function(){
     'margin-left': '-84px',
     'float'     : 'left',
     '-webkit-transform'    : 'scale(1)',
-    //'-webkit-transform'    : 'translate(44px,34px)',
   });
-
   $('.black').css({
     //draw circle
     'border'    : 'solid 6px' + colorScheme['black'],
@@ -66,9 +60,7 @@ $(function(){
     'left'      : '50%',
     'margin-left': '-40px',
     'float'     : 'left',
-    //'-webkit-transform'    : 'translate(85px, 0px)'
   })
-
   $('.green').css({
     //draw circle
     'border'    : 'solid 6px' + colorScheme['green'],
@@ -83,9 +75,7 @@ $(function(){
     'left'      : '50%',
     'margin-left': '4px',
     'float'     : 'left',
-    //'-webkit-transform'    : 'translate(129px,34px)'
   })
-
   $('.red').css({
     //draw circle
     'border'    : 'solid 6px' + colorScheme['red'],
@@ -100,6 +90,19 @@ $(function(){
     'left'      : '50%',
     'margin-left': '50px',
     'float'     : 'left',
-    //'-webkit-transform'    : 'translate(170px,0px)'
   })
+
+  $('#rings').on('mouseover', function(){
+    $('.blue').animate({
+      'opacity'   : '0.1',
+      'transform' : 'scale(5.0, 5.0)',
+      'transform' : 'translate(400px)',
+    },
+    1000,
+    'swing',
+    function(){
+     //after finished animation
+    });
+  });
 });
+
