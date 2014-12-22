@@ -1,11 +1,3 @@
-var colorScheme = {
-  blue  : '#0386D0',
-  yellow: '#FDB232',
-  black : '#020202',
-  green : '#00A751',
-  red   : '#EE344E'
-};
-
 var africa;
 var asia;
 var america;
@@ -38,9 +30,11 @@ $(function(){
                     america = 1 + data[z]["medal_num"]["america"] * scale;
                     europe = 1 + data[z]["medal_num"]["europe"] * scale;
                     oceania = 1 + data[z]["medal_num"]["oceania"] * scale;
+
                     $('.blue').css({
                         '-webkit-transform'    : 'translate(-114px,0px) scale(' + oceania + ')',
                     });
+
                     $('.yellow').css({
                         '-webkit-transform'    : 'translate(-73px,34px) scale(' + asia + ')',
                     });
@@ -57,72 +51,4 @@ $(function(){
             });
         }
     });
-
-
-  $('.blue').css({
-    'border'    : 'solid 6px' + colorScheme['blue'],
-    'width'     : '68px',
-    'height'    : '68px',
-    '-webiit-border-radius': '50%',
-    'border-radius'        : '50%',
-    'position'  : 'absolute',
-    'top'       : '50%',
-    'left'      : '50%',
-    'float'     : 'left',
-    '-webkit-transform'    : 'translate(-114px,0px) scale(1)',
-  });
-
-  $('.yellow').css({
-    'border'    : 'solid 6px' + colorScheme['yellow'],
-    'width'     : '68px',
-    'height'    : '68px',
-    '-webiit-border-radius': '50%',
-    'border-radius'        : '50%',
-    'position'  : 'absolute',
-    'top'       : '50%',
-    'left'      : '50%',
-    'float'     : 'left',
-    '-webkit-transform'    : 'translate(-73px,34px) scale(1)',
-  });
-
-
-  $('.black').css({
-    'border'    : 'solid 6px' + colorScheme['black'],
-    'width'     : '68px',
-    'height'    : '68px',
-    '-webiit-border-radius': '50%',
-    'border-radius'        : '50%',
-    'position'  : 'absolute',
-    'top'       : '50%',
-    'left'      : '50%',
-    'float'     : 'left',
-    '-webkit-transform'    : 'translate(-32px, 0px) scale(1)'
-  });
-
-  $('.green').css({
-    'border'    : 'solid 6px' + colorScheme['green'],
-    'width'     : '68px',
-    'height'    : '68px',
-    '-webiit-border-radius': '50%',
-    'border-radius'        : '50%',
-    'position'  : 'absolute',
-    'top'       : '50%',
-    'left'      : '50%',
-    'float'     : 'left',
-    '-webkit-transform'    : 'translate(9px,34px) scale(1)'
-  });
-
-  $('.red').css({
-    'border'    : 'solid 6px' + colorScheme['red'],
-    'width'     : '68px',
-    'height'    : '68px',
-    '-webiit-border-radius': '50%',
-    'border-radius'        : '50%',
-    'position'  : 'absolute',
-    'top'       : '50%',
-    'left'      : '50%',
-    'float'     : 'left',
-    '-webkit-transform'    : 'translate(52px,0px) scale(1)'
-  });
-
 });

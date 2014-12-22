@@ -60,3 +60,73 @@ footer {
     height: 400px;
     background-color: #F9F7F7;
 }
+
+.blue {
+    border    : solid 6px #0386D0;
+    width     : 68px;
+    height    : 68px;
+    -webiit-border-radius: 50%;
+    border-radius        : 50%;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    float     : left;
+    -webkit-transform : translate(-114px,0px) scale(1);
+    transition : 1s;
+}
+
+.yellow {
+    border    : solid 6px #FDB232;
+    width     : 68px;
+    height    : 68px;
+    -webiit-border-radius: 50%;
+    border-radius        : 50%;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    float     : left;
+    -webkit-transform : translate(-73px,34px) scale(1);
+    transition : 1s;
+}
+
+.black {
+    border    : solid 6px #020202;
+    width     : 68px;
+    height    : 68px;
+    -webiit-border-radius: 50%;
+    border-radius        : 50%;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    float     : left;
+    -webkit-transform : translate(-32px, 0px) scale(1);
+    transition : 1s;
+}
+
+.green {
+    border    : solid 6px #00A751;
+    width     : 68px;
+    height    : 68px;
+    -webiit-border-radius: 50%;
+    border-radius        : 50%;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    float     : left;
+    -webkit-transform : translate(9px,34px) scale(1);
+    transition : 1s;
+}
+
+.red {
+    border    : solid 6px #EE344E;
+    width     : 68px;
+    height    : 68px;
+    -webiit-border-radius: 50%;
+    border-radius        : 50%;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    float     : left;
+    -webkit-transform : translate(52px,0px) scale(1);
+    transition : 1s;
+}
