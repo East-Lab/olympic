@@ -113,7 +113,7 @@ footer {
     top       : 50%;
     left      : 50%;
     float     : left;
-    -webkit-transform : translate3d(9px,34px,0px) scale(1);
+    -webkit-transform : translate(9px,34px,0px) scale(1);
     transition : 1s;
 }
 
