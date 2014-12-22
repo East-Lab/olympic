@@ -65,13 +65,13 @@ footer {
     border    : solid 6px #0386D0;
     width     : 68px;
     height    : 68px;
-    -webiit-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
     top       : 50%;
     left      : 50%;
     float     : left;
-    -webkit-transform : translate(-114px,0px) scale(1);
+    -webkit-transform : translate3d(-114px,0px,0px) scale(1);
     transition : 1s;
 }
 
@@ -79,13 +79,13 @@ footer {
     border    : solid 6px #FDB232;
     width     : 68px;
     height    : 68px;
-    -webiit-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
     top       : 50%;
     left      : 50%;
     float     : left;
-    -webkit-transform : translate(-73px,34px) scale(1);
+    -webkit-transform : translate3d(-73px,34px,0px) scale(1);
     transition : 1s;
 }
 
@@ -93,13 +93,13 @@ footer {
     border    : solid 6px #020202;
     width     : 68px;
     height    : 68px;
-    -webiit-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
     top       : 50%;
     left      : 50%;
     float     : left;
-    -webkit-transform : translate(-32px, 0px) scale(1);
+    -webkit-transform : translate3d(-32px, 0px,0px) scale(1);
     transition : 1s;
 }
 
@@ -107,13 +107,13 @@ footer {
     border    : solid 6px #00A751;
     width     : 68px;
     height    : 68px;
-    -webiit-border-radius: 50%;
-    border-radius        : 50%;
+    -webkit-border-radius: 50%;
+    border-radius : 50%;
     position  : absolute;
     top       : 50%;
     left      : 50%;
     float     : left;
-    -webkit-transform : translate(9px,34px) scale(1);
+    -webkit-transform : translate3d(9px,34px,0px) scale(1);
     transition : 1s;
 }
 
@@ -121,12 +121,12 @@ footer {
     border    : solid 6px #EE344E;
     width     : 68px;
     height    : 68px;
-    -webiit-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
     top       : 50%;
     left      : 50%;
     float     : left;
-    -webkit-transform : translate(52px,0px) scale(1);
+    -webkit-transform : translate3d(52px,0px,0px) scale(1);
     transition : 1s;
 }

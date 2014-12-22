@@ -32,20 +32,20 @@ $(function(){
                     oceania = 1 + data[z]["medal_num"]["oceania"] * scale;
 
                     $('.blue').css({
-                        '-webkit-transform'    : 'translate(-114px,0px) scale(' + oceania + ')',
+                        '-webkit-transform'    : 'translate3d(-114px,0px,0px) scale(' + oceania + ')',
                     });
 
                     $('.yellow').css({
-                        '-webkit-transform'    : 'translate(-73px,34px) scale(' + asia + ')',
+                        '-webkit-transform'    : 'translate3d(-73px,34px,0px) scale(' + asia + ')',
                     });
                     $('.black').css({
-                        '-webkit-transform'    : 'translate(-32px, 0px) scale(' + africa + ')'
+                        '-webkit-transform'    : 'translate3d(-32px, 0px,0px) scale(' + africa + ')'
                     });
                     $('.green').css({
-                        '-webkit-transform'    : 'translate(9px,34px) scale(' + europe + ')'
+                        '-webkit-transform'    : 'translate3d(9px,34px,0px) scale(' + europe + ')'
                     });
                     $('.red').css({
-                        '-webkit-transform'    : 'translate(52px,0px) scale(' + america + ')'
+                        '-webkit-transform'    : 'translate3d(52px,0px,0px) scale(' + america + ')'
                     });
                 }
             });
