@@ -32,20 +32,20 @@ $(function(){
                     oceania = 1 + data[z]["medal_num"]["oceania"] * scale;
 
                     $('.blue').css({
-                        '-webkit-transform'    : 'translate3d(-114px,0px,0px) scale(' + oceania + ')',
+                        '-webkit-transform'    : 'translate3d(-114px,0px,0px) scale3d(' + oceania + ',' + oceania + ',' + oceania + ')',
                     });
 
                     $('.yellow').css({
-                        '-webkit-transform'    : 'translate3d(-73px,34px,0px) scale(' + asia + ')',
+                        '-webkit-transform'    : 'translate3d(-73px,34px,0px) scale3d(' + asia + ',' + asia + ',' + asia + ')',
                     });
                     $('.black').css({
-                        '-webkit-transform'    : 'translate3d(-32px, 0px,0px) scale(' + africa + ')'
+                        '-webkit-transform'    : 'translate3d(-32px, 0px,0px) scale3d(' + africa + ',' + africa + ',' + africa + ')'
                     });
                     $('.green').css({
-                        '-webkit-transform'    : 'translate3d(9px,34px,0px) scale(' + europe + ')'
+                        '-webkit-transform'    : 'translate3d(9px,34px,0px) scale3d(' + europe + ',' + europe + ',' + europe + ')'
                     });
                     $('.red').css({
-                        '-webkit-transform'    : 'translate3d(52px,0px,0px) scale(' + america + ')'
+                        '-webkit-transform'    : 'translate3d(52px,0px,0px) scale3d(' + america + ',' + america + ',' + america + ')'
                     });
                 }
             });
