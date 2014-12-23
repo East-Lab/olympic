@@ -8,6 +8,7 @@
 <meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
 <title>{{ title }}</title>
 <?php $this->assets->outputCss() ?>
+<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
 <body>
 <?php $this->assets->outputJs() ?>
 <div style="align: right; float: right;">

@@ -20,7 +20,6 @@ $(function(){
 
             $('.bxslider').bxSlider({
                 auto: true, 
-                autoControls: true,
                 hideControlOnEnd: true,
                 infiniteLoop: false,
                 onSlideAfter: function(x,y,z){
