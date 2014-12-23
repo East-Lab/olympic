@@ -11,7 +11,7 @@
 <meta property="og:title" content="NUM of Metals | Visualization of the Num of Medals">
 <meta property="og:description" content="Visualization of the number of metals in each olympic by using Olympic Rings">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://kuzuharakenta.com/olympics">
+<meta property="og:url" content="http://kuzuharakenta.com/olympic">
 <!--OGP | Facebook-->
 <title>{{ title }}</title>
 <?php $this->assets->outputCss() ?>
@@ -19,7 +19,7 @@
 <body>
 <?php $this->assets->outputJs() ?>
 <div style="align: right; float: right;">
-    <a href="http://twitter.com/share?url=http://kuzuharakenta.com/olympic&text=NUM of MEDALs | Visualization of the Number of medals in each olympic&via=kzhrknt&related=@test&hashtags=#numofmedals" target="_blank"><img src="images/twitter.png" /></a>
+    <a href="http://twitter.com/share?url=http://kuzuharakenta.com/olympic&text='NUM of MEDALs | Visualization of the Number of medals in each olympic'&via=@kzhrknt&related=@donkeykey&hashtags=#numofmedals" target="_blank"><img src="images/twitter.png" /></a>
 <a title="facebookでシェアする" href="http://www.facebook.com/sharer.php?u=http://kuzuharakenta.com/olympic&t=NUM of MEDALs | Visualization of the Number of medals in each Olympics" target="_blank"><img src="images/facebook.png" /></a>
 </div>
 <header>
