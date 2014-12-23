@@ -15,11 +15,10 @@
 ===================================*/
 
 .bx-wrapper {
-	position: absolute;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	left: 11%;
-	padding: 0;
+	position: relative;
+	margin: 0 auto 20px;
+	left: 1%;
+    width:100%;
 	*zoom: 1;
     bottom: 0px;
 }

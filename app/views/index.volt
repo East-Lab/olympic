@@ -25,8 +25,24 @@
 <header>
 <div id="logo"><img src="images/logo.png" alt="logo"></div>
 </header>
-{{ content() }}
+<div id="main-contents">
+    <div id="wrapper">
+        <div id="rings">
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="black"></div>
+            <div class="green"></div>
+            <div class="red"></div>
+        </div>
+        <div id="compe">
+            <div class="year"></div>
+            <div class="place"></div>
+        </div>
+    </div>
+</div>
 <footer class="page-footer">
+<ul class="bxslider">
+</ul>
 <small class="copyright">All right reserved by &copy; creamsoad.</small>
 </footer>
 </body>

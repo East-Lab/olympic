@@ -14,14 +14,28 @@ $(function(){
         success: function(data) {
             json = data;
             for (var i = 0; i < data.length; i++) {
-                $(".bxslider").append('<li><center><span style="font-size:24px;">' + data[i]["year"] + '</span><br><span style="font-size:28px;">' + data[i]["place"] + "</span></center></li>\n");
+                $(".bxslider").append('<div style="color:#e5e5e5;" id="place-text' + i + '"><li><center><span style="font-size:24px;">' + data[i]["year"] + '</span><br><span style="font-size:28px;">' + data[i]["place"] + "</span></center></li></div>\n");
             }
+            $('#place-text0').css({
+                'color' : '#000',
+            });
             console.log(json);
 
             $('.bxslider').bxSlider({
                 auto: true, 
                 hideControlOnEnd: true,
                 infiniteLoop: false,
+                onSlideBefore: function(x,y,z){
+                    $('#place-text' + z).css({
+                        'color' : '#000',
+                    });
+                    $('#place-text' + (z - 1)).css({
+                        'color' : '#e5e5e5',
+                    });
+                    $('#place-text' + (z + 1)).css({
+                        'color' : '#e5e5e5',
+                    });
+                },
                 onSlideAfter: function(x,y,z){
                     var scale = 0.01;
                     africa = 1 + data[z]["medal_num"]["africa"] * scale;
