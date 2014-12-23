@@ -14,7 +14,7 @@ $(function(){
         success: function(data) {
             json = data;
             for (var i = 0; i < data.length; i++) {
-                $(".bxslider").append('<li><center><span style="font-size:24px;">' + data[i]["year"] + '</span><br><span style="font-size:28px;">' + data[i]["season"] + "</span></center></li>\n");
+                $(".bxslider").append('<li><center><span style="font-size:24px;">' + data[i]["year"] + '</span><br><span style="font-size:28px;">' + data[i]["place"] + "</span></center></li>\n");
             }
             console.log(json);
 

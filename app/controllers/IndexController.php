@@ -8,8 +8,7 @@ class IndexController extends ControllerBase
         $this->assets
             ->addCss('css/jquery.bxslider.css')
             ->addCss('css/style.css')
-            ->addCss('http://necolas.github.io/normalize.css/3.0.2/normalize.css')
-            ->addCss('css/bootstrap.min.css');
+            ->addCss('http://necolas.github.io/normalize.css/3.0.2/normalize.css');
 
         $this->assets
             ->addJs('js/jquery.js')
