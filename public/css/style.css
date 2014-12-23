@@ -69,7 +69,7 @@ footer {
     -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
-    top       : 50%;
+    top       : -500px;
     left      : 50%;
     float     : left;
     -webkit-transform : translate(-114px,0px) scale(1);
@@ -83,7 +83,7 @@ footer {
     -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
-    top       : 50%;
+    top       : -500px;
     left      : 50%;
     float     : left;
     -webkit-transform : translate(-73px,34px) scale(1);
@@ -97,7 +97,7 @@ footer {
     -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
-    top       : 50%;
+    top       : -500px;
     left      : 50%;
     float     : left;
     -webkit-transform : translate(-32px, 0px) scale(1);
@@ -111,7 +111,7 @@ footer {
     -webkit-border-radius: 50%;
     border-radius : 50%;
     position  : absolute;
-    top       : 50%;
+    top       : -500px;
     left      : 50%;
     float     : left;
     -webkit-transform : translate(9px,34px) scale(1);
@@ -125,7 +125,7 @@ footer {
     -webkit-border-radius: 50%;
     border-radius        : 50%;
     position  : absolute;
-    top       : 50%;
+    top       : -500px;
     left      : 50%;
     float     : left;
     -webkit-transform : translate(52px,0px) scale(1);

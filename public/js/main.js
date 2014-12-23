@@ -4,6 +4,34 @@ var america;
 var europe;
 var oceania;
 
+$(window).load(function(){
+    $('.blue').css({
+        'top'       : '50%',
+        'left'      : '50%',
+        'transition': '2s',
+    });
+    $('.yellow').css({
+        'top'       : '50%',
+        'left'      : '50%',
+        'transition': '2.2s',
+    });
+    $('.black').css({
+        'top'       : '50%',
+        'left'      : '50%',
+        'transition': '2.4s',
+    });
+    $('.green').css({
+        'top'       : '50%',
+        'left'      : '50%',
+        'transition': '2.6s',
+    });
+    $('.red').css({
+        'top'       : '50%',
+        'left'      : '50%',
+        'transition': '3s',
+    });
+});
+
 $(function(){
     var json;
     $.ajax({
