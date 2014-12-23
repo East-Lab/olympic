@@ -44,7 +44,6 @@ $(function(){
     'left'      : '50%',
     'margin-left': '-84px',
     'float'     : 'left',
-    '-webkit-transform'    : 'scale(1)',
   });
   $('.black').css({
     //draw circle
@@ -92,16 +91,43 @@ $(function(){
     'float'     : 'left',
   })
 
-  $('#rings').on('mouseover', function(){
-    $('.blue').animate({
-      'opacity'   : '0.1',
-      'transform' : 'scale(5.0, 5.0)',
-      'transform' : 'translate(400px)',
+  //bxslider
+  var json;
+  $.ajax({
+    url:'json/conti_medals.json',
+    beforeSend: function() {
+      console.log("before");
     },
-    1000,
-    'swing',
-    function(){
-     //after finished animation
+    success: function(data) {
+      json = data;
+      for (var i = 0; i < data.length; i++) {
+        $(".bxslider").append('<li><center><span style="font-size:24x;">' + data[i]["year"] + '</span><br><span style="font-size:28px;">' + data[i]["season"] + "</span></center></li>\n");
+      }
+      console.log(json);
+    }
+  })
+
+  //Animation Area
+  $('#rings').on('mouseover', function(){
+    $('.blue').css({
+      'transform' : 'scale(2.0)',
+      'transition': '1s',
+    });
+    $('.yellow').css({
+      'transform' : 'scale(1.4)',
+      'transition': '1s',
+    });
+    $('.black').css({
+      'transform' : 'scale(1.1)',
+      'transition': '1s',
+    });
+    $('.green').css({
+      'transform' : 'scale(1.2)',
+      'transition': '1s',
+    });
+    $('.red').css({
+      'transform' : 'scale(1.6)',
+      'transition': '1s',
     });
   });
 });
