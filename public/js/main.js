@@ -8,27 +8,22 @@ $(window).load(function(){
     $('.blue').css({
         'top'       : '50%',
         'left'      : '50%',
-        'transition': '2s',
     });
     $('.yellow').css({
         'top'       : '50%',
         'left'      : '50%',
-        'transition': '2.2s',
     });
     $('.black').css({
         'top'       : '50%',
         'left'      : '50%',
-        'transition': '2.4s',
     });
     $('.green').css({
         'top'       : '50%',
         'left'      : '50%',
-        'transition': '2.6s',
     });
     $('.red').css({
         'top'       : '50%',
         'left'      : '50%',
-        'transition': '3s',
     });
 });
 
@@ -47,6 +42,7 @@ $(function(){
             $('#place-text0').css({
                 'color' : '#000',
             });
+
             console.log(json);
 
             $('.bxslider').bxSlider({
@@ -73,20 +69,24 @@ $(function(){
                     oceania = 1 + data[z]["medal_num"]["oceania"] * scale;
 
                     $('.blue').css({
-                        '-webkit-transform'    : 'translate(-114px,0px) scale(' + oceania + ')',
+                        'transition' : '1s',
+                        '-webkit-transform' : 'translate(-114px,0px) scale(' + oceania + ')',
                     });
-
                     $('.yellow').css({
+                        'transition' : '1s',
                         '-webkit-transform'    : 'translate(-73px,34px) scale(' + asia + ')',
                     });
                     $('.black').css({
-                        '-webkit-transform'    : 'translate(-32px, 0px) scale(' + africa + ')'
+                        'transition' : '1s',
+                        '-webkit-transform'    : 'translate(-32px, 0px) scale(' + africa + ')',
                     });
                     $('.green').css({
-                        '-webkit-transform'    : 'translate(9px,34px) scale(' + europe + ')'
+                        'transition' : '1s',
+                        '-webkit-transform'    : 'translate(9px,34px) scale(' + europe + ')',
                     });
                     $('.red').css({
-                        '-webkit-transform'    : 'translate(52px,0px) scale(' + america + ')'
+                        'transition' : '1s',
+                        '-webkit-transform'    : 'translate(52px,0px) scale(' + america + ')',
                     });
                 }
             });

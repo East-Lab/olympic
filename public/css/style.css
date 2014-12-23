@@ -73,7 +73,7 @@ footer {
     left      : 50%;
     float     : left;
     -webkit-transform : translate(-114px,0px) scale(1);
-    transition : 1s;
+    transition : 2s;
 }
 
 .yellow {
@@ -87,7 +87,7 @@ footer {
     left      : 50%;
     float     : left;
     -webkit-transform : translate(-73px,34px) scale(1);
-    transition : 1s;
+    transition : 2.2s;
 }
 
 .black {
@@ -101,7 +101,7 @@ footer {
     left      : 50%;
     float     : left;
     -webkit-transform : translate(-32px, 0px) scale(1);
-    transition : 1s;
+    transition : 2.4s;
 }
 
 .green {
@@ -115,7 +115,7 @@ footer {
     left      : 50%;
     float     : left;
     -webkit-transform : translate(9px,34px) scale(1);
-    transition : 1s;
+    transition : 2.6s;
 }
 
 .red {
@@ -129,7 +129,7 @@ footer {
     left      : 50%;
     float     : left;
     -webkit-transform : translate(52px,0px) scale(1);
-    transition : 1s;
+    transition : 3s;
 }
 
 li {
