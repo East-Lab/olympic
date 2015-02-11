@@ -12,14 +12,19 @@
 <meta property="og:description" content="Visualization of the number of metals in each olympic by using Olympic Rings">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://kuzuharakenta.com/olympic">
+<link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" type="text/css" />
 <!--OGP | Facebook-->
-<title>{{ title }}</title>
-<?php $this->assets->outputCss() ?>
+<title>NUM of MEDALS</title>
 <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
 <body>
-<?php $this->assets->outputJs() ?>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 <div style="align: right; float: right;">
-    <a href="http://twitter.com/share?url=http://kuzuharakenta.com/olympic&text= NUM of MEDALs - Visualization of the Number of Medals in Each Olympic - @donkeykey &via=kzhrknt&related=donkeykey&hashtags=#numofmedals" target="_blank"><img src="images/twitter.png" /></a>
+<a href="http://twitter.com/share?url=http://kuzuharakenta.com/olympic&text= NUM of MEDALs - Visualization of the Number of Medals in Each Olympic - @donkeykey &via=kzhrknt&related=donkeykey&hashtags=#numofmedals" target="_blank"><img src="images/twitter.png" /></a>
 <a title="facebookでシェアする" href="http://www.facebook.com/sharer.php?u=http://kuzuharakenta.com/olympic&t=NUM of MEDALs | Visualization of the Number of medals in each Olympics" target="_blank"><img src="images/facebook.png" /></a>
 </div>
 <header>
